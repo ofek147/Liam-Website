@@ -1,0 +1,17 @@
+.Layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 10% 90%; 
+}
+
+header {
+    grid-column: span 2 ;
+}
+
+main {
+    grid-column: span 2 ;
+    overflow: auto;
+}   
+
+
