@@ -73,7 +73,7 @@ export function Home(): JSX.Element {
                     <Carousel sx={{ marginTop: 5 }} animation="fade" navButtonsAlwaysVisible autoPlay={true} indicators={false}>
                         {imageData.map((item, i) => (
                             <Paper key={i}>
-                                <img src={item.img} alt={`Image ${i}`} />
+                                <img src={item.img} alt={`${i}`} />
                                 <div className="text-overlay">
                                 <p>{item.text}</p>
                                 </div>
