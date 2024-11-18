@@ -8,7 +8,7 @@ export function PageNotFound(): JSX.Element {
 			<p>יש בעיה עם העמוד שביקשת</p>
 			<p>הוא לא קיים אצלנו והגעת אלינו מקישור לא מעודכן,</p>
 			<p>או שיש בעיה זמנית. במקרה כזה כדאי לנסות מאוחר מדי</p>
-            <img src={pageNotFoundImage} />
+            <img src={pageNotFoundImage} alt="" />
         </div>
     );
 }

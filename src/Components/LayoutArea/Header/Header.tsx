@@ -14,7 +14,7 @@ export function Header(): JSX.Element {
                         <Button sx={{ borderRadius: '15px', '&:hover': {backgroundColor: 'rgba(10,70,105,255)' }}}>
                                 <NavLink to="/home">בית</NavLink> 
                         </Button>
-                        <img src={logoSource} />
+                        <img src={logoSource} alt="" />
                         <Button sx={{ borderRadius: '15px', '&:hover': {backgroundColor: 'rgba(10,70,105,255)' }}}>
                                 <NavLink to="/about">עלינו</NavLink>
                         </Button>
